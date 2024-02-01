@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: hsl(217, 54%, 11%);
+   
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+    width: 375px;
+    height: auto;
+    background: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    
+  }
+
+  @media screen {
+    
+  }
+
+  .img1 img{
+    
+    width: 315px;
+    height: 350px;
+    border-radius: 15px;      
+  }
+  
+  .img1 img:hover .icon{
+    opacity: 7;
+  }
+  
+  
+
+  .img1{
+    
+    align-self: center;
+    margin-top: 30px;
+    }
+
+  .title{
+   color: hsl(0, 0%, 100%); 
+   font-family: 'Outfit', ;
+   font-weight:  500, 600; 
+   align-self: start;
+   font-size: 25px;
+   margin-top: 20px;
+   margin-bottom: -20px;
+   margin-left: 30px;
+  }
+  
+  .title:hover{
+    color:  hsl(178, 100%, 50%);
+  }
+  
+  .p{
+  position: relative;
+  flex-wrap: wrap;
+  left: 30px;
+  top: 30px;
+  align-self: center;
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;  
+  }
+  
+  .sidenote1{
+  position: relative;
+  top: 50px;
+  left: 30px;
+  align-self: flex-start;
+  color: hsl(178, 100%, 50%); 
+  font-size: 18px; 
+  }
+  
+  
+  .sidenote2{
+  position: relative;
+  right: 30px;
+  top: 20px;
+  align-self: end; 
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;  
+  }
+ 
+  .line{
+    position: relative;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    width: 310px;
+    align-self: center;
+    top: 35px;
+  }
+  
+  .img3 img{
+  position: relative;
+  width: 50px;
+  border-radius: 50px;
+  border: solid white 1.5px;  
+  }
+
+  .img3{
+    position: relative;
+    left: 30px; 
+    top: 60px;
+     
+  }
+  
+  .footer1{
+  position: relative;
+  left: 90px;
+  top: 10px;
+  align-self: start;
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;  
+  }
+
+  .footer2{
+    position: relative;
+    bottom: 20px;
+    left: 65px;
+    align-self: center; 
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .footer2:hover{
+    color:  hsl(178, 100%, 50%);
+  }
